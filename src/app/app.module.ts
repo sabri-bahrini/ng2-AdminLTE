@@ -12,6 +12,7 @@ import { ContentsComponent } from './contents/contents.component';
 import { BlankPageComponent } from './contents/blank-page/blank-page.component';
 import { DashbordPageComponent } from './contents/dashbord-page/dashbord-page.component';
 import {AdminDashboard2Component} from './contents/dashboard-page2/admin-dashboard2.component';
+import { LoadingComponent } from './shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {AdminDashboard2Component} from './contents/dashboard-page2/admin-dashboa
     ContentsComponent,
     BlankPageComponent,
     DashbordPageComponent,
-    AdminDashboard2Component
+    AdminDashboard2Component,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
